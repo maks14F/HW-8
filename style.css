@@ -1,0 +1,428 @@
+/* #greycol {
+    color: grey;
+}
+
+.yellow{
+    color: yellow;
+}
+
+h3:first-child {
+    color: pink;
+}
+
+.text-box div p {
+    color: red;
+}
+
+
+p:nth-child(odd) {
+    color: green;
+} */
+
+h2 {
+    font-size: 20px;
+}
+
+/* День перший */
+.list-lessons-first:nth-child(1) {
+    color: red;
+}
+
+.list-lessons-first:nth-child(2) {
+    color: orange;
+}
+
+.list-lessons-first:nth-child(3) {
+    color: yellow;
+}
+
+.list-lessons-first:nth-child(4) {
+    color: green;
+}
+
+.list-lessons-first:nth-child(5) {
+    color: blue;
+}
+
+.list-lessons-first:nth-child(6) {
+    color: purple;
+}
+
+/* Псевдокласи стану */
+
+.list-lessons-first:nth-child(1):hover {
+    color: black;
+}
+
+.list-lessons-first:nth-child(2):hover {
+    color:yellowgreen;
+}
+
+.list-lessons-first:nth-child(3):hover {
+    color: rebeccapurple;
+}
+
+.list-lessons-first:nth-child(4):hover {
+    color: rosybrown;
+}
+
+.list-lessons-first:nth-child(5):hover {
+    color: burlywood;
+}
+
+.list-lessons-first:nth-child(6):hover {
+    color: springgreen;
+}
+
+
+/* День другий */
+
+.list-lessons-second:nth-child(1) {
+    color: red;
+}
+
+.list-lessons-second:nth-child(2) {
+    color: orange;
+}
+
+.list-lessons-second:nth-child(3) {
+    color: yellow;
+}
+
+.list-lessons-second:nth-child(4) {
+    color: green;
+}
+
+.list-lessons-second:nth-child(5) {
+    color: blue;
+}
+
+.list-lessons-second:nth-child(6) {
+    color: purple;
+}
+
+/* Псевдокласи стану */
+
+.list-lessons-second:nth-child(1):hover {
+    color: bisque;
+}
+
+.list-lessons-second:nth-child(2):hover {
+    color: olive;
+}
+
+.list-lessons-second:nth-child(3):hover {
+    color: hotpink;
+}
+
+.list-lessons-second:nth-child(4):hover {
+    color:darkslategray;
+}
+
+.list-lessons-second:nth-child(5):hover {
+    color: teal;
+}
+
+.list-lessons-second:nth-child(6):hover {
+    color: indigo;
+}
+
+/* День третій */
+
+.list-lessons-third:nth-child(1) {
+    color: red;
+}
+
+.list-lessons-third:nth-child(2) {
+    color: orange;
+}
+
+.list-lessons-third:nth-child(3) {
+    color: yellow;
+}
+
+.list-lessons-third:nth-child(4) {
+    color: green;
+}
+
+.list-lessons-third:nth-child(5) {
+    color: blue;
+}
+
+.list-lessons-third:nth-child(6) {
+    color: aqua;
+}
+
+.list-lessons-third:nth-child(7) {
+    color: purple;
+}
+
+/* Псевдокласи стану */
+
+.list-lessons-third:nth-child(1):hover {
+    color: darkmagenta;
+}
+
+.list-lessons-third:nth-child(2):hover {
+    color: darkcyan;
+}
+
+.list-lessons-third:nth-child(3):hover {
+    color: lightcyan;
+}
+
+.list-lessons-third:nth-child(4):hover {
+    color: lightcoral;
+}
+
+.list-lessons-third:nth-child(5):hover {
+    color: aqua;
+}
+
+.list-lessons-third:nth-child(6):hover {
+    color: darkred;
+}
+
+.list-lessons-third:nth-child(7):hover {
+    color: turquoise;
+}
+
+/* День четвертий */
+
+.list-lessons-fourth:nth-child(1) {
+    color: red;
+}
+
+.list-lessons-fourth:nth-child(2) {
+    color: orange;
+}
+
+.list-lessons-fourth:nth-child(3) {
+    color: yellow;
+}
+
+.list-lessons-fourth:nth-child(4) {
+    color: green;
+}
+
+.list-lessons-fourth:nth-child(5) {
+    color: blue;
+}
+
+.list-lessons-fourth:nth-child(6) {
+    color: aqua;
+}
+
+.list-lessons-fourth:nth-child(7) {
+    color: purple;
+}
+
+/* Псевдокласи стану */
+
+.list-lessons-fourth:nth-child(1):hover {
+    color: rosybrown;
+}
+
+.list-lessons-fourth:nth-child(2):hover {
+    color: grey;
+}
+
+.list-lessons-fourth:nth-child(3):hover {
+    color: thistle;
+}
+
+.list-lessons-fourth:nth-child(4):hover {
+    color: aqua;
+}
+
+.list-lessons-fourth:nth-child(5):hover {
+    color: forestgreen;
+}
+
+.list-lessons-fourth:nth-child(6):hover {
+    color: fuchsia;
+}
+
+.list-lessons-fourth:nth-child(7):hover {
+    color: cornsilk;
+}
+
+/* День п'ятий */
+
+.list-lessons-fifth:nth-child(1) {
+    color: red;
+}
+
+.list-lessons-fifth:nth-child(2) {
+    color: orange;
+}
+
+.list-lessons-fifth:nth-child(3) {
+    color: yellow;
+}
+
+.list-lessons-fifth:nth-child(4) {
+    color: green;
+}
+
+.list-lessons-fifth:nth-child(5) {
+    color: blue;
+}
+
+.list-lessons-fifth:nth-child(6) {
+    color: purple;
+}
+
+/* Псевдокласи стану */
+
+.list-lessons-fifth:nth-child(1):hover {
+    color: darkgoldenrod;
+}
+
+.list-lessons-fifth:nth-child(2):hover {
+    color: green;
+}
+
+.list-lessons-fifth:nth-child(3):hover {
+    color: firebrick;
+}
+
+.list-lessons-fifth:nth-child(4):hover {
+    color: honeydew;
+}
+
+.list-lessons-fifth:nth-child(5):hover {
+    color: lawngreen;
+}
+
+.list-lessons-fifth:nth-child(6):hover {
+    color: steelblue;
+}
+
+/* День шостий */
+
+.list-lessons-sixth:nth-child(1) {
+    color: red;
+}
+
+.list-lessons-sixth:nth-child(2) {
+    color: orange;
+}
+
+.list-lessons-sixth:nth-child(3) {
+    color: yellow;
+}
+
+.list-lessons-sixth:nth-child(4) {
+    color: green;
+}
+
+.list-lessons-sixth:nth-child(5) {
+    color: blue;
+}
+
+/* Псевдокласи стану */
+
+.list-lessons-sixth:nth-child(1):hover {
+    color: azure;
+}
+
+.list-lessons-sixth:nth-child(2):hover {
+    color: darkorange;
+}
+
+.list-lessons-sixth:nth-child(3):hover {
+    color: ivory;
+}
+
+.list-lessons-sixth:nth-child(4):hover {
+    color: turquoise;
+}
+
+.list-lessons-sixth:nth-child(5):hover {
+    color: darkseagreen;
+}
+
+/* Назви днів */
+
+#first-day {
+    color: blueviolet;
+}
+
+#second-day {
+    color: chocolate;
+}
+
+#third-day {
+    color: aquamarine;
+}
+
+#fourth-day {
+    color: cornflowerblue;
+}
+
+#fifth-day {
+    color: rgb(192, 137, 148);
+}
+
+#sixth-day {
+    color: blue;
+}
+
+/* Дні з псевдокласами стану */
+
+#first-day-title:hover {
+    color: blue;
+    background-color: red;
+}
+
+#second-day-title:hover {
+    color: brown;
+    background-color: cornflowerblue;
+}
+
+#third-day-title:hover {
+    color: slateblue;
+    background-color: silver;
+}
+
+#fourth-day-title:hover {
+    color: tomato;
+    background-color: seagreen;
+}
+
+#fifth-day-title:hover {
+    color: red;
+    background-color: skyblue;
+}
+
+#sixth-day-title:hover {
+    color: darkseagreen;
+    background-color: blue;
+}
+
+/* Списки */
+
+.first-list:hover {
+    background-color: chocolate;
+}
+
+.second-list:hover {
+    background-color: cadetblue;
+}
+
+.third-list:hover {
+    background-color: burlywood;
+}
+
+.fourth-list:hover {
+    background-color: darkcyan;
+}
+
+.fifth-list:hover {
+    background-color: darkolivegreen;
+}
+
+.sixth-list:hover {
+    background-color:darkkhaki;
+}
