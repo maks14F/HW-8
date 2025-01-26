@@ -3,406 +3,405 @@ h2 {
     font-size: 20px;
 }
 
-/* День перший */
-.list-lessons-first:nth-child(1) {
+/* Дні тижня назва */
+div h2:nth-child(1) {
     color: red;
 }
 
-.list-lessons-first:nth-child(2) {
+div h2:nth-child(3) {
     color: orange;
 }
 
-.list-lessons-first:nth-child(3) {
+div h2:nth-child(5) {
     color: yellow;
 }
-
-.list-lessons-first:nth-child(4) {
+div h2:nth-child(7) {
     color: green;
 }
 
-.list-lessons-first:nth-child(5) {
+div h2:nth-child(9) {
     color: blue;
 }
 
-.list-lessons-first:nth-child(6) {
+div h2:nth-child(11) {
     color: purple;
 }
 
 /* Псевдокласи стану */
 
-.list-lessons-first:nth-child(1):hover {
-    color: black;
+div h2:nth-child(1):hover {
+    color: purple;
+    background-color: red;
 }
 
-.list-lessons-first:nth-child(2):hover {
-    color:yellowgreen;
+div h2:nth-child(3):hover {
+    color: blue;
+    background-color: orange;
 }
 
-.list-lessons-first:nth-child(3):hover {
+div h2:nth-child(5):hover {
+    color: green;
+    background-color: yellow;
+}
+div h2:nth-child(7):hover {
+    color: yellow;
+    background-color: green;
+}
+
+div h2:nth-child(9):hover {
+    color: orange;
+    background-color: blue;
+}
+
+div h2:nth-child(11):hover {
+    color: red;
+    background-color: purple;
+}
+
+/* Списки уроків */
+
+ol:nth-child(2):hover{
+    background-color: aqua;
+}
+
+ol:nth-child(4):hover{
+    background-color: blue;
+}
+
+ol:nth-child(6):hover{
+    background-color: green;
+}
+
+ol:nth-child(8):hover{
+    background-color: rebeccapurple;
+}
+
+ol:nth-child(10):hover{
+    background-color: yellow;
+}
+
+ol:nth-child(12):hover{
+    background-color: purple;
+}
+
+/* День перший */
+
+
+
+
+
+ol:nth-child(2) li:nth-child(1) {
+    color: red;
+}
+
+ol:nth-child(2) li:nth-child(2) {
+    color: orange;
+}
+
+ol:nth-child(2) li:nth-child(3) {
+    color: yellow;
+}
+
+ol:nth-child(2) li:nth-child(4) {
+    color: green;
+}
+
+ol:nth-child(2) li:nth-child(5) {
+    color: blue;
+}
+
+ol:nth-child(2) li:nth-child(6) {
+    color: purple;
+}
+
+
+
+ol:nth-child(2) li:nth-child(1):hover {
+    color: azure;
+}
+
+ol:nth-child(2) li:nth-child(2):hover {
+    color: firebrick;
+}
+
+ol:nth-child(2) li:nth-child(3):hover {
+    color: green;
+}
+
+ol:nth-child(2) li:nth-child(4):hover {
+    color: yellow;
+}
+
+ol:nth-child(2) li:nth-child(5):hover {
     color: rebeccapurple;
 }
 
-.list-lessons-first:nth-child(4):hover {
-    color: rosybrown;
+ol:nth-child(2) li:nth-child(6):hover {
+    color: peru;
 }
-
-.list-lessons-first:nth-child(5):hover {
-    color: burlywood;
-}
-
-.list-lessons-first:nth-child(6):hover {
-    color: springgreen;
-}
-
 
 /* День другий */
 
-.list-lessons-second:nth-child(1) {
-    color: red;
+ol:nth-child(4) li:nth-child(1) {
+    color: firebrick;
 }
 
-.list-lessons-second:nth-child(2) {
-    color: orange;
+ol:nth-child(4) li:nth-child(2) {
+    color: gray;
 }
 
-.list-lessons-second:nth-child(3) {
-    color: yellow;
-}
-
-.list-lessons-second:nth-child(4) {
-    color: green;
-}
-
-.list-lessons-second:nth-child(5) {
-    color: blue;
-}
-
-.list-lessons-second:nth-child(6) {
-    color: purple;
-}
-
-/* Псевдокласи стану */
-
-.list-lessons-second:nth-child(1):hover {
-    color: bisque;
-}
-
-.list-lessons-second:nth-child(2):hover {
+ol:nth-child(4) li:nth-child(3) {
     color: olive;
 }
 
-.list-lessons-second:nth-child(3):hover {
+ol:nth-child(4) li:nth-child(4) {
+    color: aquamarine;
+}
+
+ol:nth-child(4) li:nth-child(5) {
+    color: yellowgreen;
+}
+
+
+
+ol:nth-child(4) li:nth-child(1):hover {
+    color: slategrey;
+}
+
+ol:nth-child(4) li:nth-child(2):hover {
+    color: snow;
+}
+
+ol:nth-child(4) li:nth-child(3):hover {
+    color: tomato;
+}
+
+ol:nth-child(4) li:nth-child(4):hover {
     color: hotpink;
 }
 
-.list-lessons-second:nth-child(4):hover {
-    color:darkslategray;
-}
-
-.list-lessons-second:nth-child(5):hover {
-    color: teal;
-}
-
-.list-lessons-second:nth-child(6):hover {
-    color: indigo;
+ol:nth-child(4) li:nth-child(5):hover {
+    color: powderblue;
 }
 
 /* День третій */
 
-.list-lessons-third:nth-child(1) {
-    color: red;
+ol:nth-child(6) li:nth-child(1) {
+    color: rgb(4, 74, 102);
 }
 
-.list-lessons-third:nth-child(2) {
-    color: orange;
+ol:nth-child(6) li:nth-child(2) {
+    color: rgb(31, 16, 168);
 }
 
-.list-lessons-third:nth-child(3) {
-    color: yellow;
+ol:nth-child(6) li:nth-child(3) {
+    color: rgb(202, 202, 13);
 }
 
-.list-lessons-third:nth-child(4) {
-    color: green;
+ol:nth-child(6) li:nth-child(4) {
+    color: rgb(10, 189, 91);
 }
 
-.list-lessons-third:nth-child(5) {
-    color: blue;
+ol:nth-child(6) li:nth-child(5) {
+    color: rgb(150, 223, 4);
 }
 
-.list-lessons-third:nth-child(6) {
-    color: aqua;
+ol:nth-child(6) li:nth-child(6) {
+    color: rgb(170, 6, 15);
 }
 
-.list-lessons-third:nth-child(7) {
-    color: purple;
+ol:nth-child(6) li:nth-child(7) {
+    color: rgb(207, 154, 6);
 }
 
-/* Псевдокласи стану */
 
-.list-lessons-third:nth-child(1):hover {
-    color: darkmagenta;
+
+
+ol:nth-child(6) li:nth-child(1):hover {
+    color: rgb(196, 107, 23);
 }
 
-.list-lessons-third:nth-child(2):hover {
-    color: darkcyan;
+ol:nth-child(6) li:nth-child(2):hover {
+    color: rgb(83, 22, 85);
 }
 
-.list-lessons-third:nth-child(3):hover {
-    color: lightcyan;
+ol:nth-child(6) li:nth-child(3):hover {
+    color: rgb(10, 110, 18);
 }
 
-.list-lessons-third:nth-child(4):hover {
-    color: lightcoral;
+ol:nth-child(6) li:nth-child(4):hover {
+    color: rgb(223, 255, 105);
 }
 
-.list-lessons-third:nth-child(5):hover {
-    color: aqua;
+ol:nth-child(6) li:nth-child(5):hover {
+    color: rgb(83, 151, 5);
 }
 
-.list-lessons-third:nth-child(6):hover {
-    color: darkred;
+ol:nth-child(6) li:nth-child(6):hover {
+    color: rgb(8, 133, 70);
 }
 
-.list-lessons-third:nth-child(7):hover {
-    color: turquoise;
+ol:nth-child(6) li:nth-child(7):hover {
+    color: rgb(63, 105, 7);
 }
 
 /* День четвертий */
 
-.list-lessons-fourth:nth-child(1) {
-    color: red;
+ol:nth-child(8) li:nth-child(1) {
+    color: rgb(107, 158, 12);
 }
 
-.list-lessons-fourth:nth-child(2) {
-    color: orange;
+ol:nth-child(8) li:nth-child(2) {
+    color: rgb(65, 17, 17);
 }
 
-.list-lessons-fourth:nth-child(3) {
-    color: yellow;
+ol:nth-child(8) li:nth-child(3) {
+    color: rgb(9, 5, 59);
 }
 
-.list-lessons-fourth:nth-child(4) {
-    color: green;
+ol:nth-child(8) li:nth-child(4) {
+    color: rgb(54, 54, 8);
 }
 
-.list-lessons-fourth:nth-child(5) {
-    color: blue;
+ol:nth-child(8) li:nth-child(5) {
+    color: rgb(33, 43, 13);
 }
 
-.list-lessons-fourth:nth-child(6) {
-    color: aqua;
+ol:nth-child(8) li:nth-child(6) {
+    color: rgb(4, 48, 22);
 }
 
-.list-lessons-fourth:nth-child(7) {
-    color: purple;
+
+ol:nth-child(8) li:nth-child(7) {
+    color: rgb(54, 47, 4);
 }
 
-/* Псевдокласи стану */
 
-.list-lessons-fourth:nth-child(1):hover {
-    color: rosybrown;
+
+
+
+ol:nth-child(8) li:nth-child(1):hover {
+    color: rgb(93, 148, 97);
 }
 
-.list-lessons-fourth:nth-child(2):hover {
-    color: grey;
+ol:nth-child(8) li:nth-child(2):hover {
+    color: rgba(70, 153, 59, 0.404);
 }
 
-.list-lessons-fourth:nth-child(3):hover {
-    color: thistle;
+ol:nth-child(8) li:nth-child(3):hover {
+    color: rgb(163, 10, 163);
 }
 
-.list-lessons-fourth:nth-child(4):hover {
-    color: aqua;
+ol:nth-child(8) li:nth-child(4):hover {
+    color: rgb(15, 108, 184);
 }
 
-.list-lessons-fourth:nth-child(5):hover {
-    color: forestgreen;
+ol:nth-child(8) li:nth-child(5):hover {
+    color: rgb(200, 202, 65);
 }
 
-.list-lessons-fourth:nth-child(6):hover {
-    color: fuchsia;
+ol:nth-child(8) li:nth-child(6):hover {
+    color: rgb(130, 163, 9);
 }
 
-.list-lessons-fourth:nth-child(7):hover {
-    color: cornsilk;
+ol:nth-child(8) li:nth-child(7):hover {
+    color: rgb(165, 71, 16);
 }
 
 /* День п'ятий */
 
-.list-lessons-fifth:nth-child(1) {
-    color: red;
+ol:nth-child(10) li:nth-child(1) {
+    color: rgb(67, 120, 141);
 }
 
-.list-lessons-fifth:nth-child(2) {
-    color: orange;
+ol:nth-child(10) li:nth-child(2) {
+    color: rgb(9, 115, 119);
 }
 
-.list-lessons-fifth:nth-child(3) {
-    color: yellow;
+ol:nth-child(10) li:nth-child(3) {
+    color: rgb(172, 4, 60);
 }
 
-.list-lessons-fifth:nth-child(4) {
-    color: green;
+ol:nth-child(10) li:nth-child(4) {
+    color: rgb(24, 90, 4);
 }
 
-.list-lessons-fifth:nth-child(5) {
-    color: blue;
+ol:nth-child(10) li:nth-child(5) {
+    color: rgb(37, 49, 13);
 }
 
-.list-lessons-fifth:nth-child(6) {
-    color: purple;
+ol:nth-child(10) li:nth-child(6) {
+    color: rgb(138, 30, 165);
 }
 
-/* Псевдокласи стану */
 
-.list-lessons-fifth:nth-child(1):hover {
-    color: darkgoldenrod;
+
+
+ol:nth-child(10) li:nth-child(1):hover {
+    color: rgb(22, 182, 168);
 }
 
-.list-lessons-fifth:nth-child(2):hover {
-    color: green;
+ol:nth-child(10) li:nth-child(2):hover {
+    color: rgb(82, 45, 45);
 }
 
-.list-lessons-fifth:nth-child(3):hover {
-    color: firebrick;
+ol:nth-child(10) li:nth-child(3):hover {
+    color: rgb(52, 85, 57);
 }
 
-.list-lessons-fifth:nth-child(4):hover {
-    color: honeydew;
+ol:nth-child(10) li:nth-child(4):hover {
+    color: rgb(53, 37, 45);
 }
 
-.list-lessons-fifth:nth-child(5):hover {
-    color: lawngreen;
+ol:nth-child(10) li:nth-child(5):hover {
+    color: rgb(255, 42, 43);
 }
 
-.list-lessons-fifth:nth-child(6):hover {
-    color: steelblue;
+ol:nth-child(10) li:nth-child(6):hover {
+    color: rgb(22, 54, 37);
 }
+
 
 /* День шостий */
 
-.list-lessons-sixth:nth-child(1) {
-    color: red;
+ol:nth-child(12) li:nth-child(1) {
+    color: rgb(211, 128, 128);
 }
 
-.list-lessons-sixth:nth-child(2) {
-    color: orange;
+ol:nth-child(12) li:nth-child(2) {
+    color: rgb(65, 87, 64);
 }
 
-.list-lessons-sixth:nth-child(3) {
-    color: yellow;
+ol:nth-child(12) li:nth-child(3) {
+    color: rgb(155, 155, 102);
 }
 
-.list-lessons-sixth:nth-child(4) {
-    color: green;
+ol:nth-child(12) li:nth-child(4) {
+    color: rgb(100, 46, 68);
 }
 
-.list-lessons-sixth:nth-child(5) {
-    color: blue;
+ol:nth-child(12) li:nth-child(5) {
+    color: rgb(89, 180, 142);
 }
 
-/* Псевдокласи стану */
 
-.list-lessons-sixth:nth-child(1):hover {
-    color: azure;
+
+ol:nth-child(12) li:nth-child(1):hover {
+    color: rgb(88, 134, 107);
 }
 
-.list-lessons-sixth:nth-child(2):hover {
-    color: darkorange;
+ol:nth-child(12) li:nth-child(2):hover {
+    color: rgb(114, 192, 153);
 }
 
-.list-lessons-sixth:nth-child(3):hover {
-    color: ivory;
+ol:nth-child(12) li:nth-child(3):hover {
+    color: rgb(201, 39, 10);
 }
 
-.list-lessons-sixth:nth-child(4):hover {
-    color: turquoise;
+ol:nth-child(12) li:nth-child(4):hover {
+    color: rgb(128, 38, 212);
 }
 
-.list-lessons-sixth:nth-child(5):hover {
-    color: darkseagreen;
-}
-
-/* Назви днів */
-
-#first-day {
-    color: blueviolet;
-}
-
-#second-day {
-    color: chocolate;
-}
-
-#third-day {
-    color: aquamarine;
-}
-
-#fourth-day {
-    color: cornflowerblue;
-}
-
-#fifth-day {
-    color: rgb(192, 137, 148);
-}
-
-#sixth-day {
-    color: blue;
-}
-
-/* Дні з псевдокласами стану */
-
-#first-day-title:hover {
-    color: blue;
-    background-color: red;
-}
-
-#second-day-title:hover {
-    color: brown;
-    background-color: cornflowerblue;
-}
-
-#third-day-title:hover {
-    color: slateblue;
-    background-color: silver;
-}
-
-#fourth-day-title:hover {
-    color: tomato;
-    background-color: seagreen;
-}
-
-#fifth-day-title:hover {
-    color: red;
-    background-color: skyblue;
-}
-
-#sixth-day-title:hover {
-    color: darkseagreen;
-    background-color: blue;
-}
-
-/* Списки */
-
-.first-list:hover {
-    background-color: chocolate;
-}
-
-.second-list:hover {
-    background-color: cadetblue;
-}
-
-.third-list:hover {
-    background-color: burlywood;
-}
-
-.fourth-list:hover {
-    background-color: darkcyan;
-}
-
-.fifth-list:hover {
-    background-color: darkolivegreen;
-}
-
-.sixth-list:hover {
-    background-color:darkkhaki;
+ol:nth-child(12) li:nth-child(5):hover {
+    color: rgb(145, 27, 82);
 }
